@@ -58,11 +58,11 @@ namespace BlogWebsite
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "993376809906-iue9qi224g5jrhrh25fi9bkfo9jigiri.apps.googleusercontent.com",
+                ClientSecret = "8egB3VV7cBsVYVAUzfV12QwK"
+            });
         }
     }
 }

@@ -392,7 +392,7 @@ namespace BlogWebsite.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Posts", "Home");
+            return RedirectToAction("Index", "Posts");
         }
 
         //
